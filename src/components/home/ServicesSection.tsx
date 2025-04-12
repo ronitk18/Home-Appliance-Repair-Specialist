@@ -6,7 +6,7 @@ const ServicesSection = () => {
   return (
     <section className="py-16 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-amber-400 text-center mb-12">
+        <h2 className="text-3xl font-bold text-center mb-12">
           Services We Offer
         </h2>
         
@@ -14,7 +14,7 @@ const ServicesSection = () => {
         <div className="mb-16">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold text-amber-400 mb-3">
+              <h3 className="text-2xl font-bold mb-3">
                 Experience Quality Washing Machine Service In Your Locality
               </h3>
               <p className="text-gray-400 mb-6">
@@ -36,7 +36,7 @@ const ServicesSection = () => {
         <div className="mb-16">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold text-amber-400 mb-3">
+              <h3 className="text-2xl font-bold mb-3">
                 Experience Quality Air Conditioner Repair & Services
               </h3>
               <p className="text-gray-400 mb-6">
@@ -58,7 +58,7 @@ const ServicesSection = () => {
         <div className="mb-16">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold text-amber-400 mb-3">
+              <h3 className="text-2xl font-bold mb-3">
                 Experience Quality Refrigerator Service At Your Door-step
               </h3>
               <p className="text-gray-400 mb-6">
@@ -80,7 +80,7 @@ const ServicesSection = () => {
         <div className="mb-16">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold text-amber-400 mb-3">
+              <h3 className="text-2xl font-bold mb-3">
                 Experience Quality Microwave Oven Repair & Services
               </h3>
               <p className="text-gray-400 mb-6">
@@ -100,7 +100,7 @@ const ServicesSection = () => {
         
         {/* Additional Service */}
         <div className="text-center">
-          <h3 className="text-xl font-bold text-amber-400 mb-6">
+          <h3 className="text-xl font-bold mb-6">
             AC Repair & Installation Services in Your Locality
           </h3>
           <Button className="bg-gray-900 hover:bg-gray-800 text-white">CONTACT</Button>

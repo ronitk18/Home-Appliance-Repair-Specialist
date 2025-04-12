@@ -8,16 +8,16 @@ const WhyChooseUsSection = () => {
   return (
     <section className="py-16 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-amber-400 text-center mb-12">
+        <h2 className="text-3xl font-bold text-center mb-12">
           Why Choose Us
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="bg-gray-900 border-gray-800 p-6 rounded-lg">
             <div className="flex flex-col items-center text-center">
-              <div className="text-amber-400 mb-4">
+              <div className="text-[#9b87f5] mb-4">
                 <Star className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold text-amber-400 mb-3">Quality Work Made Simple</h3>
+              <h3 className="text-xl font-bold mb-3">Quality Work Made Simple</h3>
               <p className="text-gray-400 mb-4">
                 Our technicians are highly skilled and dedicated to providing top-notch appliance repair services with attention to detail and care.
               </p>
@@ -26,10 +26,10 @@ const WhyChooseUsSection = () => {
           
           <Card className="bg-gray-900 border-gray-800 p-6 rounded-lg">
             <div className="flex flex-col items-center text-center">
-              <div className="text-amber-400 mb-4">
+              <div className="text-[#9b87f5] mb-4">
                 <Clock className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold text-amber-400 mb-3">Fast Response Time</h3>
+              <h3 className="text-xl font-bold mb-3">Fast Response Time</h3>
               <p className="text-gray-400 mb-4">
                 We understand the urgency of appliance repairs, which is why we prioritize quick response times and efficient service delivery.
               </p>
@@ -38,10 +38,10 @@ const WhyChooseUsSection = () => {
           
           <Card className="bg-gray-900 border-gray-800 p-6 rounded-lg">
             <div className="flex flex-col items-center text-center">
-              <div className="text-amber-400 mb-4">
+              <div className="text-[#9b87f5] mb-4">
                 <MessageSquare className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold text-amber-400 mb-3">Transparent Pricing</h3>
+              <h3 className="text-xl font-bold mb-3">Transparent Pricing</h3>
               <p className="text-gray-400 mb-4">
                 We provide clear, upfront pricing with no hidden fees. Get a free quotation before we start any repair work.
               </p>

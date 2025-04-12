@@ -8,15 +8,15 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="flex items-center justify-center md:justify-start gap-2">
-            <MapPin className="h-6 w-6 text-amber-400" />
+            <MapPin className="h-6 w-6 text-[#9b87f5]" />
             <span className="text-gray-300">123 Repair Street, Appliance City</span>
           </div>
           <div className="flex items-center justify-center gap-2">
-            <MessageSquare className="h-6 w-6 text-amber-400" />
+            <MessageSquare className="h-6 w-6 text-[#9b87f5]" />
             <span className="text-gray-300">info@appliancerepair.com</span>
           </div>
           <div className="flex items-center justify-center md:justify-end gap-2">
-            <PhoneCall className="h-6 w-6 text-amber-400" />
+            <PhoneCall className="h-6 w-6 text-[#9b87f5]" />
             <span className="text-gray-300">+1 (555) 123-4567</span>
           </div>
         </div>

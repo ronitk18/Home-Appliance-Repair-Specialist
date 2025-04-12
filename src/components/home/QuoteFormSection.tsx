@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -47,7 +46,7 @@ const QuoteFormSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/3">
-            <h2 className="text-2xl md:text-3xl font-bold text-amber-400 mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Get A Free Repair Quotation
             </h2>
           </div>
