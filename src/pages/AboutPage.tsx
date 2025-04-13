@@ -15,9 +15,9 @@ const AboutPage = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
             <div className="md:w-1/2">
               <img 
-                src="/lovable-uploads/83e591fb-61d1-4150-a7b3-cd67850345a2.png" 
-                alt="About Us" 
-                className="rounded-lg w-full h-auto"
+                src="/lovable-uploads/90526ebf-d7db-4a09-a2c4-4d660318ebf7.png" 
+                alt="Electrical Panel Inspection" 
+                className="rounded-lg w-full h-auto object-cover"
               />
             </div>
             <div className="md:w-1/2">
