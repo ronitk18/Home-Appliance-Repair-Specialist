@@ -4,18 +4,18 @@ import { Button } from '@/components/ui/button';
 import { Phone } from 'lucide-react';
 
 const HeroSection = () => {
-  const tollFreeNumber = "18002026164"; // Updated toll-free number
+  const tollFreeNumber = "18002026164"; // Toll-free number
   
   const handleCallNow = () => {
     window.location.href = `tel:${tollFreeNumber}`;
   };
 
   return (
-    <section className="relative h-screen">
-      <div className="absolute inset-0 bg-black opacity-60"></div>
+    <section className="relative h-[70vh]"> {/* Reduced height from h-screen to h-[70vh] */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
       <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/lovable-uploads/83e591fb-61d1-4150-a7b3-cd67850345a2.png')" }}
+        className="absolute inset-0 bg-cover bg-center blur-[2px]" /* Added slight blur */
+        style={{ backgroundImage: "url('/lovable-uploads/cfac6469-ac38-4e4b-947e-c4bfc886b1e4.png')" }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
       
