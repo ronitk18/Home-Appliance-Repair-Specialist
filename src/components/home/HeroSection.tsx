@@ -11,11 +11,13 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-[60vh]"> {/* Reduced height further from 70vh to 60vh */}
+    <section className="relative h-[60vh]" aria-label="Home Appliance Repair Services"> 
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div 
-        className="absolute inset-0 bg-cover bg-center blur-[3px]" /* Increased blur from 2px to 3px */
+        className="absolute inset-0 bg-cover bg-center blur-[3px]"
         style={{ backgroundImage: "url('/lovable-uploads/09475d78-0da2-4f58-a4ca-c0cbc46f9983.png')" }}
+        role="img" 
+        aria-label="Washing machines background"
       ></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
       
@@ -28,6 +30,7 @@ const HeroSection = () => {
           <Button 
             onClick={handleCallNow}
             className="bg-[#9b87f5] hover:bg-[#7E69AB] text-white font-bold px-8 py-6 text-lg rounded-md flex items-center gap-2"
+            aria-label="Call our toll-free number"
           >
             <Phone className="w-5 h-5" />
             CALL US NOW
