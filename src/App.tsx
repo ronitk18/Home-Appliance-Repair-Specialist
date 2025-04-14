@@ -9,6 +9,7 @@ import ServicesPage from "./pages/ServicesPage";
 import AboutPage from "./pages/AboutPage";
 import CitiesPage from "./pages/CitiesPage";
 import ContactPage from "./pages/ContactPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import NotFound from "./pages/NotFound";
 import React from 'react';
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/cities" element={<CitiesPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

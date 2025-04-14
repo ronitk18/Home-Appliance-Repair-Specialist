@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://yourdomain.com/sitemap.xml
 
 # Specific allowances for major search engines
 User-agent: Googlebot
@@ -26,3 +26,13 @@ Allow: /
 # Allow Google AdsBot
 User-agent: AdsBot-Google
 Allow: /
+
+# Disallow certain low-value pages
+User-agent: *
+Disallow: /404
+Disallow: /error
+
+# Website content is original and no duplicate content issues
+User-agent: *
+Allow: /
+

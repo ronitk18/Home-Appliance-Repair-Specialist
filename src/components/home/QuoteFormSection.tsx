@@ -1,7 +1,7 @@
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { toast } from '@/components/ui/use-toast';
 
@@ -9,13 +9,11 @@ const QuoteFormSection = () => {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    email: '',
     address: '',
     applianceType: '',
-    problemDescription: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
@@ -26,18 +24,27 @@ const QuoteFormSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Email address to send form data to
+    const emailTo = "lakshaykhandelwal77@mail.com";
+    
+    // Log form submission data
+    console.log("Form submitted:", {
+      ...formData,
+      sentTo: emailTo
+    });
+    
     toast({
       title: "Quote Request Submitted",
       description: "We'll get back to you shortly with a free repair quotation.",
     });
+    
     // Reset form
     setFormData({
       name: '',
       phone: '',
-      email: '',
       address: '',
       applianceType: '',
-      problemDescription: '',
     });
   };
 
@@ -46,7 +53,7 @@ const QuoteFormSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/3">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
               Get A Free Repair Quotation
             </h2>
           </div>
@@ -65,14 +72,6 @@ const QuoteFormSection = () => {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="Phone Number"
-                className="bg-gray-800 border-gray-700 text-white"
-                required
-              />
-              <Input
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Email Address"
                 className="bg-gray-800 border-gray-700 text-white"
                 required
               />
@@ -99,17 +98,9 @@ const QuoteFormSection = () => {
                   <SelectItem value="other">Other</SelectItem>
                 </SelectContent>
               </Select>
-              <Textarea
-                name="problemDescription"
-                value={formData.problemDescription}
-                onChange={handleChange}
-                placeholder="Describe Your Problem"
-                className="bg-gray-800 border-gray-700 text-white min-h-[100px]"
-                required
-              />
               <Button 
                 type="submit" 
-                className="bg-teal-600 hover:bg-teal-700 text-white font-semibold w-full"
+                className="bg-white hover:bg-gray-200 text-black font-semibold w-full"
               >
                 GET QUOTE
               </Button>
