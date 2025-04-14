@@ -25,13 +25,10 @@ const QuoteFormSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Email address to send form data to
-    const emailTo = "lakshaykhandelwal77@mail.com";
-    
     // Log form submission data
     console.log("Form submitted:", {
       ...formData,
-      sentTo: emailTo
+      sentTo: "lakshaykhandelwal77@mail.com"
     });
     
     toast({

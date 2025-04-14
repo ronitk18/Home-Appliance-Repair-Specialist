@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Mail, Phone } from 'lucide-react';
+import { MapPin, Mail, Phone, Mailbox } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -13,9 +13,9 @@ const Footer = () => {
             <span className="text-gray-300">Kakkanad, Kochi</span>
           </div>
           <div className="flex items-center justify-center gap-2">
-            <Mail className="h-6 w-6 text-white" />
-            <a href="mailto:lakshaykhandelwal77@mail.com" className="text-gray-300 hover:text-white transition-colors">
-              lakshaykhandelwal77@mail.com
+            <Mailbox className="h-6 w-6 text-white" />
+            <a href="mailto:Appliancewizards0@gmail.com" className="text-gray-300 hover:text-white transition-colors">
+              Appliancewizards0@gmail.com
             </a>
           </div>
           <div className="flex items-center justify-center md:justify-end gap-2">

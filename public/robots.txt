@@ -32,7 +32,10 @@ User-agent: *
 Disallow: /404
 Disallow: /error
 
+# Contact information
+# Email: Appliancewizards0@gmail.com
+# Customer support: lakshaykhandelwal77@mail.com
+
 # Website content is original and no duplicate content issues
 User-agent: *
 Allow: /
-

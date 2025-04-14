@@ -73,4 +73,8 @@
   .grayscale {
     filter: grayscale(100%);
   }
+  
+  .no-grayscale {
+    filter: none;
+  }
 }
