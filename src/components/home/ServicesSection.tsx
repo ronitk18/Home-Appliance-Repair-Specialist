@@ -38,7 +38,7 @@ const ServicesSection = () => {
               <img 
                 src="/lovable-uploads/b2ec49e4-c1a0-4aae-bfd7-bd3070ff10cd.png" 
                 alt="Washing machine repair service" 
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
@@ -65,7 +65,7 @@ const ServicesSection = () => {
               <img 
                 src="/lovable-uploads/dd8ed9c2-7658-4929-b2d3-62bfd205a93c.png" 
                 alt="Air conditioner repair service" 
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const ServicesSection = () => {
               <img 
                 src="/lovable-uploads/43ac272b-95a0-444c-b6dc-7a635a97970e.png" 
                 alt="Refrigerator repair service" 
-                className="w-full h-full object-cover grayscale max-h-[300px]"
+                className="w-full h-full object-cover max-h-[300px]"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ const ServicesSection = () => {
               <img 
                 src="/lovable-uploads/fbb03f0c-bdcb-4970-a373-e4f7bcfe7733.png" 
                 alt="Microwave and oven repair service" 
-                className="w-full h-full object-cover grayscale max-h-[300px]"
+                className="w-full h-full object-cover max-h-[300px]"
               />
             </div>
           </div>

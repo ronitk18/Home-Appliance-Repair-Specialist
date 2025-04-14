@@ -11,7 +11,7 @@ const AboutPage = () => {
       <Header />
       <div className="py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center text-[#9b87f5] mb-8">About Us</h1>
+          <h1 className="text-4xl font-bold text-center text-white mb-8">About Us</h1>
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
             <div className="md:w-1/2">
               <img 
@@ -21,7 +21,7 @@ const AboutPage = () => {
               />
             </div>
             <div className="md:w-1/2">
-              <h2 className="text-2xl font-bold text-[#9b87f5] mb-4">Your Trusted Appliance Repair Partner</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Your Trusted Appliance Repair Partner</h2>
               <p className="text-gray-300 mb-4">
                 With years of experience in the industry, we have built a reputation for providing reliable and 
                 efficient appliance repair services. Our team of skilled technicians is dedicated to delivering 
@@ -33,7 +33,7 @@ const AboutPage = () => {
                 go above and beyond to ensure that your appliances are in perfect working condition.
               </p>
               <Button
-                className="bg-[#9b87f5] hover:bg-[#7E69AB] text-white font-bold"
+                className="bg-white hover:bg-gray-200 text-black font-bold"
                 onClick={() => window.location.href = '/contact'}
               >
                 Contact Us
